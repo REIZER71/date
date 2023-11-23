@@ -1,0 +1,18 @@
+есть класс Date, содержащий в себе следующие переменные:
+int year - год
+int month - месяц,
+int day - день,
+int hour - час,
+int minute - минута,
+int second - секунда,
+bool isOurEra - текущая эра
+и следующие методы:
+static void spyears(int year) - проверяет год на високосность
+void subFlagDefault() -приводит *флаги в стандартное положение
+static Date flagSet(Date d) - устанавливает положение флагов для месяца
+static void flagOut(Date d) - устанавливает положение флагов для вывода (для корректного вывода через 01, а не просто 1)
+void convert(Date d) - приводит дату в правильный вид
+Date add(int year1, int month1, int day1, int  hour1, int minute1, int second1) - добавление даты к текущей
+Date subtract(int year1, int month1, int day1, int  hour1, int minute1, int second1) - вычитание даты от текущей
+
+*флаг - булевая переменная
